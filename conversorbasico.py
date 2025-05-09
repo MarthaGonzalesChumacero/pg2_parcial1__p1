@@ -5,15 +5,11 @@ class ConversorBasico:
         self._unidad_destino = None
         self._valor_convertido = None
 
-
     def _conversion_generica(self, valor, factor_conversion):
         return valor * factor_conversion
 
-
-
     def _mostrar_resultados(self):
         print(f"{self._valor_origen} {self._unidad_origen} son {self._valor_convertido} {self._unidad_destino}")
-
 
 
 class ConversorDistancia(ConversorBasico):
@@ -23,7 +19,6 @@ class ConversorDistancia(ConversorBasico):
         self._unidad_destino = "centimetros"
         self._valor_convertido = self._conversion_generica(metros, 100)
         self._mostrar_resultados()
-
 
     def centimetros_a_kilometros(self, centimetros):
         self._valor_origen = centimetros

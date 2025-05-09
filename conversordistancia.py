@@ -1,6 +1,6 @@
-from conversorbasico import Conversordistancia
+from conversorbasico import ConversorDistancia
 
-conv = Conversordistancia()
+conv = ConversorDistancia()
 
-conv.metros_a_centimetros(5) 
-conv.centimetros_a_kilometros(250000)
+conv.metros_a_centimetros(12.5)  
+conv.centimetros_a_kilometros(520000) 
