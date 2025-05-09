@@ -1,4 +1,4 @@
-class ConversorBasico:
+class conversorbasico:
     def __init__(self):
         self._valor_origen = None
         self._unidad_origen = None
@@ -12,7 +12,7 @@ class ConversorBasico:
         print(f"{self._valor_origen} {self._unidad_origen} son {self._valor_convertido} {self._unidad_destino}")
 
 
-class ConversorDistancia(ConversorBasico):
+class conversordedistancia(conversorbasico):
     def metros_a_centimetros(self, metros):
         self._valor_origen = metros
         self._unidad_origen = "metros"
