@@ -5,8 +5,8 @@
 ____
 
 ## Imagen1
-![Imagen 1](Imagenes/Imagen1.png)
+![Imagen 1](imagenes/Imagen1.png)
 ____
 
 ## Imagen2
-![Imagen 2](Imagenes/Imagen2.png)
+![Imagen 2](imagenes/Imagen2.png)
